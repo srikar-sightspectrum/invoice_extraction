@@ -1,0 +1,65 @@
+{
+    "invoice_number": [
+        "Invoice Number",
+        "Invoice No",
+        "Inv No",
+        "Invoice #"
+    ],
+    "invoice_date": [
+        "Invoice Date",
+        "Date",
+        "Bill Date"
+    ],
+    "due_date": [
+        "Due Date",
+        "Payment Due Date"
+    ],
+    "po_number": [
+        "PO Number",
+        "Purchase Order Number",
+        "P.O. No"
+    ],
+    "gstin": [
+        "GSTIN",
+        "GSTIN/UIN",
+        "GST Registration Number"
+    ],
+    "supplier_name": [
+        "Supplier Name",
+        "Seller Name",
+        "Vendor Name"
+    ],
+    "buyer_name": [
+        "Buyer Name",
+        "Bill To",
+        "Billed To",
+        "Customer Name"
+    ],
+    "subtotal": [
+        "Subtotal",
+        "Sub Total",
+        "Taxable Value"
+    ],
+    "tax_amount": [
+        "Tax Amount",
+        "Total Tax",
+        "GST Amount"
+    ],
+    "discount": [
+        "Discount",
+        "Total Discount"
+    ],
+    "total_amount": [
+        "Grand Total",
+        "Total Amount",
+        "Invoice Total",
+        "Net Amount"
+    ],
+    "currency": [
+        "Currency"
+    ],
+    "payment_terms": [
+        "Payment Terms",
+        "Terms of Payment"
+    ]
+}

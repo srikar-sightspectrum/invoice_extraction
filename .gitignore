@@ -1,0 +1,74 @@
+
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE files
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Temporary files
+# ==============================
+temp/
+tmp/
+*.tmp
+
+# ==============================
+# OCR / Invoice input data
+# ==============================
+uploads/
+input/
+invoices/
+processed/
+output/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+
+# ==============================
+# Generated files
+# ==============================
+*.xlsx
+*.xls
+*.csv
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini

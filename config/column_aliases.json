@@ -1,0 +1,58 @@
+{
+    "description": [
+        "Description",
+        "Description of Goods",
+        "Item Description",
+        "Product Description",
+        "Particulars",
+        "Product Name",
+        "Item Name"
+    ],
+    "hsn_sac": [
+        "HSN",
+        "HSN Code",
+        "SAC",
+        "HSN/SAC",
+        "HSN or SAC"
+    ],
+    "quantity": [
+        "Quantity",
+        "Qty",
+        "QTY."
+    ],
+    "unit": [
+        "Unit",
+        "UOM",
+        "UQC"
+    ],
+    "rate": [
+        "Rate",
+        "Unit Price",
+        "Price",
+        "Rate Per Unit"
+    ],
+    "discount": [
+        "Discount",
+        "Discount Amount",
+        "Disc."
+    ],
+    "tax_rate": [
+        "Tax %",
+        "GST %",
+        "Tax Rate",
+        "GST Rate",
+        "Rate of Tax"
+    ],
+    "tax_amount": [
+        "Tax Amount",
+        "GST Amount",
+        "Tax Value"
+    ],
+    "amount": [
+        "Amount",
+        "Total",
+        "Line Total",
+        "Net Amount",
+        "Value"
+    ]
+}
