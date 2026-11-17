@@ -41,11 +41,18 @@ from src.output.json_generator import generate_invoice_json
 # Project paths
 # ---------------------------------------------------------------------------
 
-INPUT_DIR = PROJECT_ROOT / "input"
 CONFIG_DIR = PROJECT_ROOT / "config"
-EXTRACTION_DIR = PROJECT_ROOT / "output" / "extraction"
-FINAL_DIR = PROJECT_ROOT / "output" / "final"
-LOG_DIR = PROJECT_ROOT / "logs"
+CONFIG_FILE = CONFIG_DIR / "config.json"
+
+with CONFIG_FILE.open("r", encoding="utf-8") as file:
+    CONFIG = json.load(file)
+
+PATHS = CONFIG["paths"]
+
+INPUT_DIR = PROJECT_ROOT / PATHS["input_folder"]
+EXTRACTION_DIR = PROJECT_ROOT / PATHS["extraction_folder"]
+FINAL_DIR = PROJECT_ROOT / PATHS["final_folder"]
+LOG_DIR = PROJECT_ROOT / PATHS["log_folder"]
 
 HEADER_ALIASES_FILE = CONFIG_DIR / "header_aliases.json"
 COLUMN_ALIASES_FILE = CONFIG_DIR / "column_aliases.json"
